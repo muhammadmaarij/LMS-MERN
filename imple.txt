@@ -1,0 +1,6 @@
+//callback
+//promise based
+
+25marks
+10 short with practical example
+15 case study
