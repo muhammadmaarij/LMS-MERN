@@ -138,7 +138,6 @@ router.put("/assignstudent/:cid/:sid", function (req, res, next) {
   Class.findOneAndUpdate(
     { _id: req.params.cid },
     {
-      //''
       $push: {
         students: { sid: req.params.sid },
       },
